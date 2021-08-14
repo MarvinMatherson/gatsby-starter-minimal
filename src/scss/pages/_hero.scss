@@ -1,0 +1,52 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+.photo{
+    width: 100%;
+    height: 770px;
+    background-image: url('../images/background3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.photo h1{
+    color: #fff;
+    font-size: 70px;
+
+}
+
+.photo h3{
+    font-family: 'Montserrat';
+    margin-bottom: 20px;
+    color: #ffff;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+.button{
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
+
+.imag{
+    border: 1px solid white;
+    border-radius: 9999px;
+    box-shadow: 20px 20px 20px solid white
+}
