@@ -1,6 +1,9 @@
 import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 import {Navbar, Nav, Container} from 'react-bootstrap';
+import logo from '../images/logo_large.png';
+
+
 
 const Header = () =>{
     return(
@@ -8,7 +11,7 @@ const Header = () =>{
             <Navbar bg="light" expand="lg">
             <Container>
                 <Navbar.Brand 
-                href="#"><StaticImage src= '../images/logo_large.png' className='logo' /> </Navbar.Brand>
+                href="#"><img src= {logo} className='logo' /> </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
             <Nav
