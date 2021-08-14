@@ -1,7 +1,6 @@
 .experience{
     text-align: left;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 100%;
@@ -14,7 +13,7 @@
 .graphic{
     text-align: left;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 100%;
@@ -24,8 +23,9 @@
 
 
 .experience h2{
+    font-weight: 600;
     margin-right: auto;
     font-size: 25px;
-    font-family: 'Montserrat';
+    font-family: 'Nunito';
 }
 

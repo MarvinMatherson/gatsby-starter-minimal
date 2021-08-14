@@ -7,8 +7,9 @@ import thisite from "../images/thiswebsite.png";
 
 const Projects = () => {
     return(
-        <div class='background'>
-          
+  
+        <div class='background' data-bs-spy="scroll" data-bs-target="#navbar-example1" id="scrollspyHeading1">
+
         <Container>
             <h2>My Projects</h2>
             <Row>
@@ -51,6 +52,7 @@ const Projects = () => {
             </Row>
          
         </Container>
+        
         </div>
     )
 }

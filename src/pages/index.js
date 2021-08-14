@@ -7,6 +7,8 @@ import "../scss/main.scss";
 import Intro from "../comps/Intro";
 import Projects from "../comps/Projects";
 import Languages from "../comps/Languages";
+import Contact from "../comps/Contact"
+
 
 // markup
 const IndexPage = () => {
@@ -16,7 +18,8 @@ const IndexPage = () => {
           <Hero />
           <Intro />
           <Projects />
-      
+         
+
           
     </div>
   )

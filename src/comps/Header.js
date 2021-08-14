@@ -23,7 +23,7 @@ const Header = () =>{
                 navbarScroll
             >
             
-            <Nav.Link href="#action1">Projects</Nav.Link>
+            <Nav.Link href="#scrollspyHeading1">Projects</Nav.Link>
             <Nav.Link href="#action2">Contact</Nav.Link>
             </Nav>
             </Navbar.Collapse>
