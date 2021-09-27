@@ -33,7 +33,7 @@ const Projects = () => {
                         <Card.Text>
                             This was my first website made for another company.
                         </Card.Text>
-                        <Button variant="outline-dark" href='https://www.metworkslondon.com/new' target='_BLANK'>Visit Metworks</Button>
+                        <Button variant="outline-dark" href='https://www.metworkslondon.com/' target='_BLANK'>Visit Metworks</Button>
                 </Card.Body>
                 </Card>
                </div>
