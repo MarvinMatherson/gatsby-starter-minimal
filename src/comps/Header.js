@@ -24,7 +24,7 @@ const Header = () =>{
             >
             
             <Nav.Link href="#scrollspyHeading1">Projects</Nav.Link>
-            <Nav.Link href="#action2">Contact</Nav.Link>
+            {/* <Nav.Link href="#action2">Contact</Nav.Link> */}
             </Nav>
             </Navbar.Collapse>
             </Container>
