@@ -4,6 +4,8 @@ import { Container, Row, Card, Button, Img} from "react-bootstrap";
 import metworks from "../images/Metworks.png";
 import phones from "../images/Phones.png";
 import thisite from "../images/thiswebsite.png";
+import jerkshack from '../images/jerkshack.png';
+import backontrack from '../images/backontrack.png';
 
 const Projects = () => {
     return(
@@ -39,6 +41,30 @@ const Projects = () => {
                </div>
                <div class='col-lg-4'>
                 <Card style={{ width: '100%' }}>
+                <Card.Img variant="top" src={jerkshack} />
+                <Card.Body>
+                    <Card.Title>Jerkshack</Card.Title>
+                        <Card.Text>
+                            A group project at University for a restaurant, which is being used as their main site.
+                        </Card.Text>
+                        <Button variant="outline-dark" href='https://jerkshack.marvinmatherson.uosweb.co.uk/' target='_BLANK'>Visit the Jerk Shack</Button>
+                </Card.Body>
+                </Card>
+                </div>
+            <div class='col-lg-4'>
+                <Card style={{ width: '100%' }}>
+                <Card.Img variant="top" src={backontrack} />
+                <Card.Body>
+                    <Card.Title>Back On Track</Card.Title>
+                        <Card.Text>
+                            My dissertation, a website to assist homeless individuals.
+                        </Card.Text>
+                        <Button variant="outline-dark" href='https://backontrack.marvinmatherson.uosweb.co.uk/' target='_BLANK'>Visit Back on Track</Button>
+                </Card.Body>
+                </Card>
+                </div>
+                <div class='col-lg-4'>
+                <Card style={{ width: '100%' }}>
                 <Card.Img variant="top" src={thisite} />
                 <Card.Body>
                     <Card.Title> This website</Card.Title>
@@ -49,8 +75,7 @@ const Projects = () => {
                 </Card.Body>
                 </Card>
                </div>
-            </Row>
-         
+                </Row>
         </Container>
         
         </div>

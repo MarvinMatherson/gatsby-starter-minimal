@@ -11,7 +11,7 @@ return(
             <div class='col-lg-6'>
                 <div class='experience'>
                     <h2>About me</h2>
-                    <p>My name is Marvin and I'm a web and mobile development student at Suffolk University. I'm also a front end developer for Location works.  I started my coding journey in 2018 after teaching myself HTML and CSS.  I applied to university and was accepted onto a web and mobile development course, where I'm  learning many technologies like JavaScript and PHP. I’m currently teaching myself React. </p>
+                    <p>My name is Marvin and I'm a web and mobile development student at Suffolk University. I've been a front end developer for Location works. I started my coding journey in 2018 after teaching myself HTML and CSS.  I applied to university and was accepted onto a web and mobile development course, where I've learnt many technologies like JavaScript and PHP. I’m currently teaching myself React. </p>
                     
                 </div>
             </div>

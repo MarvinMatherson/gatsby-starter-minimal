@@ -9,7 +9,7 @@ const Hero = () => {
         <div class='photo'>
             <img src = {marv}  class='imag' height = {300} />
             <h1>Hello, I'm Marvin.</h1>
-            <h3>I'm an aspiring web developer <br></br> currently in university.</h3>
+            <h3>I'm an aspiring web developer <br></br> graduating from university.</h3>
            <a href="#scrollspyHeading1"> <div class='button'>See my projects</div> </a>
         </div>
     </div>
