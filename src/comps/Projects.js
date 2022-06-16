@@ -47,7 +47,7 @@ const Projects = () => {
                         <Card.Text>
                             A group project at University for a restaurant, which is being used as their main site.
                         </Card.Text>
-                        <Button variant="outline-dark" href='https://jerkshack.marvinmatherson.uosweb.co.uk/' target='_BLANK'>Visit the Jerk Shack</Button>
+                        <Button variant="outline-dark" href='http://jerk-shack.com' target='_BLANK'>Visit the Jerk Shack</Button>
                 </Card.Body>
                 </Card>
                 </div>
