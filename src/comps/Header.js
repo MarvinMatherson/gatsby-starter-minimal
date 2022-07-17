@@ -7,30 +7,20 @@ import logo from '../images/logo_large.png';
 
 const Header = () =>{
     return(
-        <div>
-            <Navbar bg="light" expand="lg">
-            <Container>
-                <Navbar.Brand 
-                href="#"><img src= {logo} className='logo' /> </Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarScroll" />
-                <Navbar.Collapse id="navbarScroll">
-            <Nav
-                className="ms-auto my-2 my-lg-0"
-                style={{ maxHeight: '100px',
-            
-            
-            }}
-                navbarScroll
-            >
-            
-            <Nav.Link href="#scrollspyHeading1">Projects</Nav.Link>
-            {/* <Nav.Link href="#action2">Contact</Nav.Link> */}
-            </Nav>
-            </Navbar.Collapse>
-            </Container>
-         </Navbar> 
-        </div>
+           <Navbar>
+      <Container>
+        <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse className="justify-content-end">
+          <Navbar.Text>
+            Signed in as: <a href="#login">Mark Otto</a>
+          </Navbar.Text>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+        
     )
 }
 
 export default Header;
+

@@ -18,11 +18,8 @@ const IndexPage = () => {
           <Hero />
           <Intro />
           <Projects />
-        
-
-          
     </div>
   )
 }
 
-export default IndexPage
+export default IndexPage;
