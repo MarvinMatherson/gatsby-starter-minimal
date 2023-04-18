@@ -35,7 +35,7 @@ const Projects = () => {
                         <Card.Text>
                             This was my first website made for another company.
                         </Card.Text>
-                        <Button variant="outline-dark" href='https://www.metworkslondon.com/' target='_BLANK'>Visit Metworks</Button>
+                        <Button variant="outline-dark" href='https://www.metworkslondon.com/' target='framename'>Visit Metworks</Button>
                 </Card.Body>
                 </Card>
                </div>
@@ -47,7 +47,7 @@ const Projects = () => {
                         <Card.Text>
                             A group project at University for a restaurant, which is being used as their main site.
                         </Card.Text>
-                        <Button variant="outline-dark" href='http://jerk-shack.com' target='_BLANK'>Visit the Jerk Shack</Button>
+                        <Button variant="outline-dark" href='http://jerk-shack.com' target='framename'>Visit the Jerk Shack</Button>
                 </Card.Body>
                 </Card>
                 </div>
@@ -59,7 +59,7 @@ const Projects = () => {
                         <Card.Text>
                             My dissertation, a website to assist homeless individuals.
                         </Card.Text>
-                        <Button variant="outline-dark" href='https://backontrack.marvinmatherson.uosweb.co.uk/' target='_BLANK'>Visit Back on Track</Button>
+                        <Button variant="outline-dark" href='https://backontrack.marvinmatherson.uosweb.co.uk/' target='framename'>Visit Back on Track</Button>
                 </Card.Body>
                 </Card>
                 </div>
@@ -67,11 +67,11 @@ const Projects = () => {
                 <Card style={{ width: '100%' }}>
                 <Card.Img variant="top" src={thisite} />
                 <Card.Body>
-                    <Card.Title> This website</Card.Title>
+                    <Card.Title> Business Expo</Card.Title>
                         <Card.Text>
-                            I just need something to go here if I'll be honest with you.
+                            The Suffolk Business Expo
                         </Card.Text>
-                        <Button variant="outline-dark" href='https://themarvin.gatsbyjs.io/' target='_BLANK'>Visit this website</Button>
+                        <Button variant="outline-dark" href='https://suffolkbusinessexpo.co.uk/' target='_BLANK'>Visit this website</Button>
                 </Card.Body>
                 </Card>
                </div>
